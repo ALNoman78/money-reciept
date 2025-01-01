@@ -29,10 +29,13 @@ const TableTwo = () => {
     return (
         <div className="bg-gray-100 p-6 min-h-screen">
             <div className="container mx-auto bg-gradient-to-r from-[#12AAF5] p-5">
-                <img
-                    className="h-[100px]"
-                    src="https://i.ibb.co.com/cg3kRpL/Logo-Design.png" alt="" />
-                <h1 className="text-2xl font-bold mb-4">Dynamic Table with Total Price</h1>
+                <div className="flex items-center gap-5">
+                    <img
+                        className="h-[100px]"
+                        src="https://i.ibb.co.com/cg3kRpL/Logo-Design.png" alt="" />
+                        <h3 className="font-bold text-3xl text-white">Creative Media</h3>
+                </div>
+                {/* <h1 className="text-2xl font-bold mb-4">Dynamic Table with Total Price</h1> */}
                 <div className="overflow-x-auto">
                     <table className="min-w-full border-collapse border border-gray-200 bg-white shadow-md rounded-lg">
                         <thead>
